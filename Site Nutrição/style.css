@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(153, 0, 255);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(61, 7, 112);
+}
+
+/*Cabeçalho da página*/
+
+header{
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Estilização do menu de navegação*/
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 5px auto;  
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px white;
+    border: 2px solid rgb(153, 0, 255);
+    width: 44%;
+}
+
+nav ul li{
+    display: inline; /* Exibe os itens da lista na mesma linha */
+    margin: 35px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Remove o sublinhado dos links*/
+    font-size: 18px;
+}
+
+/*--- Classes ---*/
+
+.conteudo{
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto; /* Centraliza a caixa e adiciona um espaçamento */
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px white; /* Adiciona sombra */
+    border-radius: 8px; /* Arredonda os cantos da borda */
+}
+
+.destaque{
+    border: 2px solid rgb(153, 0, 255);
+    padding: 15px;
+    background-color: white;
+}
+
+/* Estilização Geral */
+
+img {
+    width: 100%; /* Define a largura total da imagem */
+    max-width: 600px;
+    display: block; /* Remove espaçamentos */
+    margin: 10px auto; /* Centraliza a imagem */
+}
+
+footer {
+    background-color: rgb(81, 3, 133);
+    color: white;
+    text-align: center;
+    padding: 10px;;
+    width: 100%;
+    /* Fixar o rodapé embaixo da página */
+    position: relative;
+    bottom: 0;
+}
